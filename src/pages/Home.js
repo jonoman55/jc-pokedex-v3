@@ -1,6 +1,8 @@
 import { Container, Box, Typography } from '@mui/material';
 import { useAppContext } from '../contexts/AppContext';
 
+// TODO : Add Gen Select 
+// TODO : Implement Pokedex Viewer
 const Home = () => {
     const { pokeList } = useAppContext();
 

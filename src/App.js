@@ -14,6 +14,7 @@ const container = {
     width: '100%'
 };
 
+// TODO : Implement styled components project wide
 const App = () => {
     const { theme } = useThemeContext();
     const activeTheme = createTheme(theme ? light : dark);

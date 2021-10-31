@@ -51,6 +51,7 @@ const thumb = {
 };
 
 // TODO : Add media query to shrink the title when on mobile
+// TODO : Add another AppBar below this one for ApiCredit
 const Header = () => {
     const history = useHistory();
     const { theme, setTheme } = useThemeContext();
